@@ -6,3 +6,5 @@ class Solution:
             x = target - j
             if x in mp: return [mp[x], i]
             mp[j] = i
+            
+        return []
