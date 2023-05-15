@@ -17,7 +17,7 @@ public:
         }
         
         ListNode *end_ptr = right_ptr;
-        while (right_ptr->next) {
+        while (right_ptr->next != NULL) {
             left_ptr = left_ptr->next;
             right_ptr = right_ptr->next;
         }
