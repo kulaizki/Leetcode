@@ -1,6 +1,7 @@
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
 
+        # binary search
         left, right = 0, len(nums) - 1
 
         while left <= right:
